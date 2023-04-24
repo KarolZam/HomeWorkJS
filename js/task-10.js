@@ -29,6 +29,7 @@ function createBoxes() {
     div.style.width = `${boxSize}px`;
     div.style.height = `${boxSize}px`;
     div.style.backgroundColor = getRandomHexColor();
+    div.style.margin = '10px';
     boxes.appendChild(div);
 
     boxSize += 10;
